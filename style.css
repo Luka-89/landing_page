@@ -26,7 +26,7 @@
     align-items: center;
     margin: 0;
     width: 100%;
-    padding: 36px 250px;
+    padding: 36px 13%;
 }
 
 .header-two {
@@ -34,7 +34,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 36px 250px;
+    padding: 36px 13%;
 }
 
 .header-logo {
@@ -50,14 +50,14 @@
     font-weight: 900;
 }
 
-.title-subtext {
+.subtext {
     color: white;
     font-size: 18px;
     margin-bottom: 8px;
     margin-top: 5px;
 }
 
-.sign-up-one {
+.sign-up-one, .sign-up-two {
     all: unset;
     text-align: center;
     border-radius: 8px;
@@ -88,7 +88,7 @@ a {
 }
 
 .information {
-    padding: 32px 450px;
+    padding: 32px 23%;
 }
 
 .information-header {
@@ -119,8 +119,9 @@ a {
 }
 
 .inspiration {
-    padding: 128px 560px;
+    padding: 128px 30%;
     background-color: var(--quote-bg);
+    
 }
 
 .quote {
@@ -133,4 +134,24 @@ a {
 .source {
     font-weight: bold;
     text-align: end;
+}
+
+.sign-up-banner {
+    margin: 128px;  
+    background-color: var(--accent);
+    border-radius: 8px;
+    padding: 36px 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.sign-up-two {
+    border: 1px white solid;
 }
