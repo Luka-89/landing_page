@@ -1,7 +1,5 @@
 :root {
     --main-bg: #1F2937;
-    --header-color: #F9FAF8;
-    --text: #e5e7eb;
     --accent: #3882f6;
 }
 
@@ -9,12 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
     background-color: var(--main-bg);
-    color: var(--header-color);
-    font-family: 'Roboto', sans-serif;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,20 +38,21 @@
 .header-logo {
     font-weight: 900;
     font-size: 24px;
-    color: var(--header-color);
+    color: white;
     margin: 0;
 }
 
 .title {
     font-size: 48px;
-    color: var(--header-color);
+    color: white;
     font-weight: 900;
 }
 
 .title-subtext {
-    color: var(--text);
+    color: white;
     font-size: 18px;
     margin-bottom: 8px;
+    margin-top: 5px;
 }
 
 .sign-up-one {
@@ -61,9 +60,10 @@
     text-align: center;
     border-radius: 8px;
     background-color: var(--accent);
-    color: var(--text);
+    color: white;
     width: 100px;
     height: 35px;
+    margin-top: 5px;
 }
 
 ul {
@@ -77,10 +77,41 @@ ul {
 }
 
 li a{
-    color: var(--text);
+    color: white;
     font-size: 18px;
 }
 
 a {
     text-decoration: none;
+}
+
+.information {
+    padding: 32px 450px;
+}
+
+.information-header {
+    font-weight: 900;
+    color: var(--main-bg);
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 4px solid var(--accent);
+    border-radius: 16px;
 }
