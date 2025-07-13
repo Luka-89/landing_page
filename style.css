@@ -155,3 +155,11 @@ a {
 .sign-up-two {
     border: 1px white solid;
 }
+
+footer {
+    background-color: var(--main-bg);
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 24px 0;
+}
