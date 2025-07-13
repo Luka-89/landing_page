@@ -1,6 +1,8 @@
 :root {
     --main-bg: #1F2937;
     --accent: #3882f6;
+    --quote-text: #1f2937;
+    --quote-bg: #e5e7eb;
 }
 
 * {
@@ -114,4 +116,21 @@ a {
     background-color: white;
     border: 4px solid var(--accent);
     border-radius: 16px;
+}
+
+.inspiration {
+    padding: 128px 560px;
+    background-color: var(--quote-bg);
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: var(--quote-text);
+}
+
+.source {
+    font-weight: bold;
+    text-align: end;
 }
